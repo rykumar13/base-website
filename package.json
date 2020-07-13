@@ -1,0 +1,37 @@
+{
+  "name": "gatsby-starter-catalyst-onepage",
+  "description": "Gatsby Starter: A basic implementation of Gatsby-Theme-Catalyst-Onepage",
+  "version": "0.2.4",
+  "author": "Eric Howey <eric@erichowey.dev>",
+  "dependencies": {
+    "gatsby": "^2.13.52",
+    "gatsby-theme-catalyst-onepage": "^0.2.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-starter",
+    "gatsby-plugin"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "clean": "gatsby clean",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ehowey/gatsby-starter-catalyst-basic"
+  },
+  "bugs": {
+    "url": "https://github.com/ehowey/gatsby-starter-catalyst-basic/issues"
+  }
+}
