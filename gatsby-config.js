@@ -1,9 +1,11 @@
+const config = require('./src/config.js');
+
 module.exports = {
   siteMetadata: {
-    title: `Catalyst Onepage`,
+    title: `Rajiv Kumar | Software Engineer`,
     description: `Child theme and starter from gatsby-theme-catalyst-core`,
     author: `Eric Howey`,
-    siteUrl: `https://gatsby-starter-catalyst-onepage.netlify.com`, //Change to you site address, required for sitemap.xml and robots.txt file
+    siteUrl: `http://localhost:8000/`, //Change to you site address, required for sitemap.xml and robots.txt file
     menuLinks: [
       {
         name: `Not Used`, //Placeholder due to graphql
@@ -12,32 +14,32 @@ module.exports = {
     ],
     anchorLinks: [
       {
-        name: `Section 1`,
+        name: `about`,
         link: `#section1`
       },
       {
-        name: `Section 2`,
+        name: `experience`,
         link: `#section2`
       },
       {
-        name: `Section 3`,
+        name: `contact`,
         link: `#section3`
       }
     ],
     socialLinks: [
       {
         name: `e-mail`,
-        url: `eric@erichowey.dev`,
+        url: `rykumar13@gmail.com`,
         location: `footer`
       },
       {
         name: `Github`,
-        url: `https://www.github.com/ehowey`,
+        url: `https://www.github.com/rykumar13`,
         location: `all`
       },
       {
         name: `Twitter`,
-        url: `https://www.twitter.com/erchwy`,
+        url: `https://www.twitter.com/`,
         location: `footer`
       }
     ]

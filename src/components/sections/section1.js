@@ -4,35 +4,20 @@ import { jsx } from "theme-ui";
 const siteSection = () => {
   return (
     <section id="section1">
-      <h2>Section 1</h2>
+      <h2>01. About</h2>
       <p>
-        Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra
-        auctor, sem massa mattis sem, at interdum magna augue eget diam.
-        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-        cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed
-        non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit
-        amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel,
-        egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices
-        ultrices enim. Curabitur sit amet mauris.{" "}
-      </p>
-
-      <p>
-        Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer
-        lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor.
-        Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique,
-        dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante.
-        Nulla quam. Aenean laoreet. Vestibulum nisi lectus, commodo ac,
-        facilisis ac, ultricies eu, pede. Ut orci risus, accumsan porttitor,
-        cursus quis, aliquet eget, justo. Sed pretium blandit orci.{" "}
+        Hello! I'm Rajiv, a software engineer based in London.
+        </p>
+        <p>
+        I enjoy creating things that live on the internet, whether that be websites, applications, 
+        or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.{" "}
       </p>
       <p>
-        Ut eu diam at pede suscipit sodales. Aenean lectus elit, fermentum non,
-        convallis id, sagittis at, neque. Nullam mauris orci, aliquet et,
-        iaculis et, viverra vitae, ligula. Nulla ut felis in purus aliquam
-        imperdiet. Maecenas aliquet mollis lectus. Vivamus consectetuer risus et
-        tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-        nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla
-        quis sem at nibh elementum imperdiet.{" "}
+      Shortly after graduating from Northeastern University, I joined the engineering team at Upstatement 
+      where I work on a wide variety of interesting and meaningful projects on a daily basis.
+      </p>
+      <p>
+      Here are a few technologies I've been working with recently:
       </p>
     </section>
   );
